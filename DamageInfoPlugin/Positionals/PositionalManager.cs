@@ -30,11 +30,11 @@ public class PositionalManager
 
     private void Get()
     {
-        var text = _client.GetAsync(SheetUrl).Result.Content.ReadAsStringAsync().Result;
-        if (!File.Exists(_filePath) || File.ReadAllText(_filePath) != text)
-        {
-            File.WriteAllText(_filePath, text);
-        }
+        //var text = _client.GetAsync(SheetUrl).Result.Content.ReadAsStringAsync().Result;
+        //if (!File.Exists(_filePath) || File.ReadAllText(_filePath) != text)
+        //{
+        //    File.WriteAllText(_filePath, text);
+        //}
     }
 
     private void Load()
