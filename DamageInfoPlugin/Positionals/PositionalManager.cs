@@ -30,6 +30,7 @@ public class PositionalManager
 
     private void Get()
     {
+        return;
         var text = _client.GetAsync(SheetUrl).Result.Content.ReadAsStringAsync().Result;
         if (!File.Exists(_filePath) || File.ReadAllText(_filePath) != text)
         {

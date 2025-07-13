@@ -39,4 +39,10 @@
       <TargetPath>positionals.csv</TargetPath>
     </ContentWithTargetPath>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="positionals.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
